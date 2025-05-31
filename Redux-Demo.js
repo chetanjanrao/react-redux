@@ -8,7 +8,7 @@ const initialState = {
 const BUY_CAKES = "BUY_CAKES";
 function buyCakes(){
       return {
-            type : "BUY_CAKES",
+            type : BUY_CAKES,
             info : "React Redux first action"
       }
 }
