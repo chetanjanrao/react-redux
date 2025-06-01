@@ -1,10 +1,19 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.container{
+   border: 2px dotted black;
+   height: auto;
+   width: 400px;
+   padding: 10px;
+   border-radius: 10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
